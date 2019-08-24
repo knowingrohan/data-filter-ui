@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  font-family: $body-font;
   font-size: $base-font-size;
   color: $body-color;
   background: $bg-color;
@@ -15,28 +14,61 @@ body {
   
   max-width: 900px; 
   margin: 0 auto;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 a {
   text-decoration: none;
   color: black;
   &:hover {
-    color: $accent;
     cursor: pointer;
   }
 }
 
 a {
   padding: 5px;
-  color: $orange;
 }
 
 table{
   max-width: 100%;
   margin: 0 auto;
+  border: 1px solid $gray;
+  
 }
 th, td{
-  border: 1px solid $body-color;
   width: 260px;
+  padding: 1em;
+}
+
+tr:nth-child(odd){
+  background: $light-gray;
+}
+
+tr:first-child{
+  background: $gray;
+}
+
+.filter-box{
+  float: left;
+}
+
+.done-btn{
+  float: right;
+  margin-top: 1em; 
+  padding: 0.5em 1em;
+  background: $btn-color;
+  border: none;
+  color: $bg-color;
+}
+.search-filter{
+  float: right;
+  label{
+    font-weight:bold; 
+  }
+}
+
+.search-box{
+  padding: 0.8em;
+  box-shadow: 2px 2px 2px #eee;
+  border: none;
 }

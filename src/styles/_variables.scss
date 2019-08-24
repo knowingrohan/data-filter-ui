@@ -1,35 +1,8 @@
-$body-font: 'IBM Plex Sans', sans-serif;
-$heading-font: 'IBM Plex Sans Condensed', sans-serif;
+
 $base-font-size: 16px;
-$body-color: #fff;
+$body-color: #333;
 $gray: #eee;
-$accent: #9c2532;
-$youtube: #bd081c;
-$twitter: #1c94e0;
-$instagram: #000;
-$tablet: 768px;
-$desktop: 1024px;
-$bg-color: #282c34;
-$orange: #e5c07b;
+$light-gray: #FAFAFA;
+$bg-color: #fff;
 $facebook: #47639e;
-
-
-//breakpoints
-$breakpoint-large: '1440px';
-$breakpoint-lg: '1439.98px';
-$breakpoint-medium: '1025px';
-$breakpoint-md: '1024px';
-$breakpoint-small: '768px';
-$breakpoint-sm: '767.98px';
-$breakpoint-xsmall: '376px';
-$breakpoint-xsm: '375.98px';
-
-
-$breakpoint-min-iphonex: 375px;
-$breakpoint-max-iphonex: 812px;
-
-// Old Breakpoints
-$breakpoint: '992px';
-$breakpoint-mx: '991.98px';
-$breakpoint-hs: '480px';
-$breakpoint-xs: '576px';
+$btn-color: #2774F0;

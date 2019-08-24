@@ -11,18 +11,20 @@
 <body>
     <div class="wrapper">
         <form>
-            <input type="search" name="q" placeholder="Search" />
-            <input type="checkbox" id=filterSelect />
-            <label for="filterSelect">Show Selected</label>
-            <input type="submit" value="Done" />
+            <input type="search" class="search-box" name="q" placeholder="Search" />
+            <div class="search-filter">
+                <input type="checkbox" id=filterSelect />
+                <label class ="search-label" for="filterSelect">Show Selected</label>
+            </div>
         </form>
-        <table>
+        <table id="configTable">
             <tr>
                 <th>Key</th>
                 <th>Value</th>
                 <th>Description</th>
             </tr>
         </table>
+        <button id="doneBtn" class="done-btn">Done</button>
 
     </div>
 
